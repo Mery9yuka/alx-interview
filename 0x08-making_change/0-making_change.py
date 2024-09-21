@@ -3,10 +3,11 @@
    nb of coins needed to meet a given total
 """
 
+
 def makeChange(coins, total):
     if total <= 0:
         return 0
-    
+
     min_c = [float('inf')] * (total + 1)
     min_c[0] = 0
 
