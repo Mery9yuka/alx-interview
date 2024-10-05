@@ -5,7 +5,7 @@ Choosing Prime numbers Game
 
 
 def primeNumbers(n):
-    """Function that return list of 
+    """Function that return list of
        prime numbers between 1 and n inclusive
     """
     primeNos = []
